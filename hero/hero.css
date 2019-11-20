@@ -5,7 +5,7 @@ html, body{
 }
 
 header{
-	background-color:#00C;
+	background-color:#003;
 	background-image:url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Chun-Li-Background-Full-HD-PIC-WPC006340.jpg');
 	background-size: 102%;
 	padding: 40px;
@@ -18,17 +18,28 @@ h1{
 
 }
 
+h2{
+	color: #FFCC00;
+}
+
+p{
+	color: white;
+}
+
+ol{
+	color: white;
+}
 header img{
 	border-radius: 150px;
 	width: 300px;
-	border: 10px solid #FFFF00;
+	border: 10px solid #FFCC00;
 	
 }
 
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	background-color: #FFFF00;
+	background-color: #003;
 	padding: 20px;
 }
 
@@ -55,7 +66,8 @@ a{
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color:#00C;
+	background-color:#003;
+	color: white;
 }
 
 footer ul{
@@ -66,4 +78,12 @@ footer ui li{
 	display:inline-block;
 	margin: 0 5px;
 	
+}
+body{
+background-color:#003;
+background-image:
+radial-gradient(midnightblue 9px, transparent 10px),
+repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
+background-size: 30px 30px, 90px 90px;
+background-position: 0 0;
 }
