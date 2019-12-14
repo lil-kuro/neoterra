@@ -3,7 +3,11 @@ html, body{
 	margin: 0;
 
 }
-table {text-align:center;
+
+table {
+	text-align:center;
+	max-width: 900px;
+	margin: 0 auto;
 	}
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
